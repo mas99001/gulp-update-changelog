@@ -1,9 +1,9 @@
 {
-  "name": "gulp-changelog",
+  "name": "gulp-update-changelog",
   "version": "1.0.0",
   "author": "Aditya Kumar <aditya.podia@gmail.com>",
   "license": "MIT",
-  "description": "A Change log plugin for gulp",
+  "description": "A Change-log-update from git log - plugin for gulp",
   "dependencies": {},
   "devDependencies": {
     "loadash": "*",

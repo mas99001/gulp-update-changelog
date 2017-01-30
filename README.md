@@ -26,7 +26,7 @@ var dateTime = date+' '+time;
 gulp.task("default", function(){
     sortlog({
         src:"CHANGELOG.md",
-        format:"git log --pretty=::%s --no-merges ",
+        format:"git log --pretty=::%s --no-merges",
         dateAfter:pkg.CLdate,
         tempLogFile:'release-notes/.G-log.md',
         dest:"release-notes/.G-CHANGELOG.md",

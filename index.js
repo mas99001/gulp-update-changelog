@@ -16,7 +16,7 @@ var defaults = {
 
 module.exports = function (pOptions) {
     var options = _.merge({}, defaults, pOptions);
-    fs.writeFile(options.tempLogFile, options.fileHeader+'\r\n', 'utf-8');
+    fs.writeFileSync(options.tempLogFile, options.fileHeader+'\r\n', 'utf-8');
     exec(options.format + " --after=\"" + options.dateAfter + "\" >> " + options.tempLogFile
             , function(){     
             sortLogFile();

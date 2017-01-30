@@ -6,14 +6,14 @@
 3. Run the following command , to install the global grunt:
 ```npm install -g grunt-cli```
 4. Run the following command , to install the gulp change log:
-```npm install -g gulp-changelog```
+```npm install -g gulp-update-changelog```
 
 ## Usage
 - add the following scripts to your `gulpfile.js`:
 - Supply the options for sortlog
 ```javascript
 var gulp = require('gulp');
-var sortlog = require("gulp-changelog");
+var sortlog = require("gulp-update-changelog");
 var fs= require('node-fs');
 
 var pkg = JSON.parse(fs.readFileSync("package.json","utf8"));

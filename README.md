@@ -1,4 +1,4 @@
-# Update the Changelog with latest commit log from git
+# Update the Changelog with latest-commit-log from git
 
 ## Prepare the Environment -- Windows
 1. Install node.js from [HERE](https://nodejs.org/en/download)
